@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MotorbikeGame</string>
+
+
+    <string name="menu_background">Menu Background</string>
+
+
+    <string name="play_game_label">PLAY GAME</string>
+    <string name="select_level_label">SELECT LEVEL</string>
+    <string name="about_label">ABOUT</string>
+
+
+    <string name="level_1_label">LEVEL 1</string>
+    <string name="level_2_label">LEVEL 2</string>
+    <string name="level_3_label">LEVEL 3</string>
+</resources>

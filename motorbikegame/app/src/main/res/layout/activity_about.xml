@@ -1,0 +1,29 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aboutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/aboutBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/menu_bg"
+        android:contentDescription="@string/menu_background"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/aboutText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Project\n\nMotosiklet Oyunu\n\nOyunumuzda 3 farklı seviye bulunur ve her seviyeye göre daha motor ve araba rakibi görürüz.\n\nYıldızları toplamak size extra +5 puan sağlayacaktır.\n\nHer seviyede sizinde motorunuz değişmektedir.\n\n EMRE KILIÇ "
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+    </ScrollView>
+
+</RelativeLayout>
